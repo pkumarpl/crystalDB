@@ -1,0 +1,9 @@
+DESCRIPTION
+   Flask framework for managing lab crystallography measurement and data collection repository 
+AUTHOR
+        Prashant Kumar <prashantkbio@gmail.com>
+"""
+
+__author__ = "Prashant Kumar"
+__email__ = "prashantkbio@gmail.com"
+__licence__ = "GPL"
