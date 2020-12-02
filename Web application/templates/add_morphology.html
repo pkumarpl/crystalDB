@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+
+<!-- COPIED FROM ADD_EXPERIMENT -->
+{% block body %}
+  <h1>Add morphology</h1>
+  {% from "includes/_formhelpers.html" import render_field %}
+  <form method="POST" action="">
+    <div class="form-group"> <!-- Bootstrap form -->
+      {{render_field(form.expID, class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{render_field(form.crystalDate, class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{render_field(form.crystalType, class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{render_field(form.crystalShape, class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{render_field(form.crystalColor, class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{render_field(form.crystalSizeA, class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{render_field(form.crystalSizeB, class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{render_field(form.crystalSizeC, class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{render_field(form.crystalMeltingTemp, class_="form-control")}}
+    </div>
+    <p><input type="submit" class="btn btn-primary" value="Submit"></p>
+  </form>
+{% endblock %}

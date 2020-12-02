@@ -1,0 +1,38 @@
+solventName;chemicalFormula;canonicalSmile;casNumber;productNumber;supplier
+Acetonitrile;C2H3N;CC#N;75-05-8;271004;Aldrich
+Acetone;CH3COCH3;CC(=O)C;67-64-1;439126;Aldrich
+Anisole;C7H8O;COC1=CC=CC=C1;100-66-3;96109;Aldrich
+Dichloromethane;CH2Cl2;C(Cl)Cl;75-09-2;270997;Aldrich
+Benzene;C6H6;C1=CC=CC=C1;71-43-2;401765;Aldrich
+Benzyl Chloride;C7H7Cl;C1=CC=C(C=C1)CCl;100-44-7;185558;Aldrich
+Chlorobenzene;C6H5Cl;C1=CC=C(C=C1)Cl;108-90-7;284513;Aldrich
+Chloroform;CHCl3;C(Cl)(Cl)Cl;67-66-3;372978;Aldrich
+Chloromethane;CH3Cl;CCl;74-87-3;295507;Aldrich
+1-Butanol;C4H10O;CCCCO;71-36-3;B7906;Aldrich
+Cyclohexane;C6H12;C1CCCCC1;110-82-7;227048;Aldrich
+N,N-dimethylformamide;C3H7NO;CN(C)C=O;68-12-2;227056;Aldrich
+Ethanol;C2H6O;CCO;64-17-5;493511;Aldrich
+Diethyl Ether;C4H10O;CCOCC;60-29-7;296082;Aldrich
+Dimethyl Sulfoxide (DMSO);C2H6OS;CS(=O)C;67-68-5;D2650;Aldrich
+1,4-Dioxane;C4H8O2;C1COCCO1;123-91-1;296309;Aldrich
+Ethyl Acetate;C4H8O2;CCOC(=O)C;141-78-6;270989;Aldrich
+Methanol;CH4O;CO;67-56-1;322415;Aldrich
+Glycerol;C3H8O3;C(C(CO)O)O;56-81-5;G9012;Aldrich
+Tetrahydrofuran;C4H8O;C1CCOC1;109-99-9;401757;Aldrich
+Heptane;C7H16;CCCCCCC;142-82-5;246654;Aldrich
+Pentane;C5H12;CCCCC;109-66-0;236705;Aldrich
+Ethylene glycol;C2H6O2;C(CO)O;107-21-1;324558;Aldrich
+1-Propanol;C3H8O;CCCO;71-23-8;279544;Aldrich
+Hexane;C6H14;CCCCCC;110-54-3;296090;Aldrich
+1-Pentanol;C5H12O;CCCCCO;71-41-0;398268;Aldrich
+Xylene;C8H10;;1330-20-7;214736;Aldrich
+2-Propanol;C3H8O;CC(C)O;67-63-0;278475;Aldrich
+tert-Butyl methyl ether;C5H12O;CC(C)(C)OC;1634-04-4;306975;Aldrich
+Toluene;C6H5CH3;CC1=CC=CC=C1;108-88-3;244511;Aldrich
+Methyl Acetate;C3H6O2;CC(=O)OC;79-20-9;296996;Aldrich
+Trichloroethylene;C2HCl3;C(=C(Cl)Cl)Cl;79-01-6;46267;Aldrich
+3-Methylbenzophenone;C14H12O;CC1=CC=CC(=C1)C(=O)C2=CC=CC=C2;643-65-2;198056;Aldrich
+cis-1,2-Dichloroethene;C2H2Cl2;C(=CCl)Cl;156-59-2;48597;Aldrich
+Methanol-1-d;CH4O;CO;4206-31-9;490296;Aldrich
+Tetrahydrofuran;C4H8O;C1CCOC1;109-99-9;401757;Aldrich
+Water;H2O;O;7732-18-5;;

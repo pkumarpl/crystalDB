@@ -1,0 +1,154 @@
+compoundName;chemicalFormula;canonicalSmile;type;casNumber;productNumber;supplier
+Sodium nitrate;NaNO3;[N+](=O)([O-])[O-].[Na+];inorganic salt;7631-99-4;15736;Aldrich
+Yellow prussiate;C6H6FeK4N6O3;[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.O.O.O.[K+].[K+].[K+].[K+].[Fe+2];inorganic salt;14459-95-1;455989;Aldrich
+Disodium phosphate 12 hydrate;HNa2O4P;OP(=O)([O-])[O-].[Na+].[Na+];inorganic salt;7558-79-4;NIST2186II ;Aldrich
+Magnesium carbonate;CMgO3;C(=O)([O-])[O-].[Mg+2];inorganic salt;546-93-0;M7179;Aldrich
+Zinc Oxide;ZnO;O=[Zn];inorganic;1314-13-2;93632;Aldrich
+Magnesium sulfate;MgSO4;[O-]S(=O)(=O)[O-].[Mg+2];inorganic salt; 7487-88-9 ;203726;Aldrich
+Tin(II) chloride;Cl2Sn;Cl[Sn]Cl;inorganic salt;7772-99-8;204722;Aldrich
+Sodium Hydroxide;NaOH;[OH-].[Na+];inorganic;1310-73-2;72064;Aldrich
+Ruthenium (IV) sulfide;RuS2;S=[Ru]=S;inorganic salt;12166-20-0;587427;Aldrich
+Ruthenium (IV) oxide;O2Ru;[O-2].[O-2].[Ru+4];inorganic;12036-10-1;238058;Aldrich
+Magnesium boride;B12Mg;[B].[B].[B].[B].[B].[B].[B].[B].[B].[B].[B].[B].[Mg];inorganic salt;12007-25-9;553913;Aldrich
+Sodium sulfate(VI);Na2SO4;[O-]S(=O)(=O)[O-].[Na+].[Na+];inorganic salt;7757-82-6;204447;Aldrich
+Copper(II) bromide , Cupric bromide;CuBr2;[Cu](Br)Br;inorganic salt;7789-45-9;221775;Aldrich
+Sodium bromide (NaBr);NaBr;[Na+].[Br-];inorganic salt;7647-15-6;S4547 ;Aldrich
+Sodium bisulfite;NaHSO3;OS(=O)[O-].[Na+];inorganic salt;7631-90-5;28-1980;Aldrich
+Cadmium diiodide (CdI2);CdI2;[Cd+2].[I-].[I-];inorganic salt;7790-80-9;228516;Aldrich
+Potassium chloride (KCl);KCL;[Cl-].[K+];inorganic salt;7447-40-7;P9333 ;Aldrich
+Cupric chloride (CuCl2) x 2 H2O;Cl2CuH4O2;O.O.Cl[Cu]Cl;inorganic salt;7447-39-4;459097;Aldrich
+Bismuth triiodide, Triiodobismuthane;BiI3;I[Bi](I)I;inorganic salt;7787-64-6;341010;Aldrich
+Potassium bicarbonate;KHCO3;C(=O)(O)[O-].[K+];inorganic salt;298-14-6;60339;Aldrich
+Sodium acetate;CH3COONa;CC(=O)[O-].[Na+];organic salt;127-09-3;S2889 ;Aldrich
+Sodium salicylate;C7H5NaO3;C1=CC=C(C(=C1)C(=O)[O-])O.[Na+];organic salt;54-21-7;S3007 ;Aldrich
+Sodium dihydrogen phosphate;H4NaO5P;O.OP(=O)(O)[O-].[Na+];inorganic salt;10049-21-5;71507;Aldrich
+Potassium bisulphate;KHSO4;OS(=O)(=O)[O-].[K+];inorganic salt;7646-93-7;401544;Aldrich
+Magnesium carbonate basic;MgCO3;C(=O)([O-])[O-].[Mg+2];inorganic salt;39409-82-0;63032;Aldrich
+Urea;NH2CONH2;C(=O)(N)N;organic;57-13-6;U5378 ;Aldrich
+6-aminouracil;C4H5N3O2;C1=C(NC(=O)NC1=O)N;organic;873-83-6;A50606 ;Aldrich
+Acetaminophen;C8H9NO2;CC(=O)NC1=CC=C(C=C1)O;organic;103-90-2;A7085 ;Aldrich
+Benzoic acid;C6H5COOH;C1=CC=C(C=C1)C(=O)O;organic;65-85-0;242381;Aldrich
+triphenylphosphine oxide;C18H15OP;C1=CC=C(C=C1)P(=O)(C2=CC=CC=C2)C3=CC=CC=C3;organic;791-28-6;T84603 ;Aldrich
+ethylenediamine;C2H8N2;C(CN)N;organic;107-15-3;3550;Aldrich
+Nickel (II) nitrate hexahydrate;Ni(NO3)26H2O;[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.O.O.[Ni+2];inorganic salt;13478-00-7;203874;Aldrich
+Aminoethanoic acid (glycine);C2H5NO2;C(C(=O)O)N;organic;56-40-6;410225;Aldrich
+Phenyl carbamate;C7H7NO2;C1=CC=C(C=C1)OC(=O)N;organic;622-46-8;P21404 ;Aldrich
+Malonic acid;C3H4O4;C(C(=O)O)C(=O)O;organic;141-82-2;M1296 ;Aldrich
+Chloranilic acid;C6H2Cl2O4;C1(=C(C(=O)C(=C(C1=O)Cl)O)Cl)O;organic;87-88-7;C8136 ;Aldrich
+Trichloroacrylic acid;C3HCl3O2;C(=C(Cl)Cl)(C(=O)O)Cl;organic;2257-35-4;S893994;Aldrich
+Pentafluorobenzoic Acid;C6F5COOH;C1(=C(C(=C(C(=C1F)F)F)F)F)C(=O)O;organic;602-94-8;P5360 ;Aldrich
+Succinic acid; C4H6O4;C(CC(=O)O)C(=O)O;organic;110-15-6;S3674 ;Aldrich
+Tetrachlorobenzene;C6H2Cl4;C1=CC(=C(C(=C1Cl)Cl)Cl)Cl;organic;634-66-2;131849;Aldrich
+Creatinine anhydrous;C4H7N3O;CN1CC(=O)N=C1N;organic;60-27-5;C4255 ;Aldrich
+1,2-di(4-pyridyl)ethylene;C12H10N2;C1=CN=CC=C1C=CC2=CC=NC=C2;organic;13362-78-2;B52808;Aldrich
+2-acetamidophenol;C8H9NO2;CC(=O)NC1=CC=CC=C1O;organic;614-80-2;A7000 ;Aldrich
+Tyramine;C8H11NO;C1=CC(=CC=C1CCN)O;organic;51-67-2;T90344 ;Aldrich
+Diamantane;C14H20;C1C2CC3C4C1C5CC(C4)CC3C5C2;organic;2292-79-7;D2876;TCI chemicals
+Quinuclidine;C7H13N;C1CN2CCC1CC2;organic;100-76-5;197602;Aldrich
+3-acetamidophenol;C8H9NO2;CC(=O)NC1=CC(=CC=C1)O;organic;621-42-1;A7205 ;Aldrich
+Pentachlorobenzene;C6HCl5;C1=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl;organic;608-93-5;131326;Aldrich
+n-methylurea;C2H6N2O;CNC(=O)N;organic;598-50-5;M86804 ;Aldrich
+Norepinephrine;C8H11NO3;C1=CC(=C(C=C1C(CN)O)O)O;organic;51-41-2;A7257 ;Aldrich
+l-thyroxine;C15H11I4NO4;C1=C(C=C(C(=C1I)OC2=CC(=C(C(=C2)I)O)I)I)CC(C(=O)O)N;organic;51-48-9;T2376 ;Aldrich
+3,3',5-triiodo-l-thyronine;C15H12I3NO4;C1=CC(=C(C=C1OC2=C(C=C(C=C2I)CC(C(=O)O)N)I)I)O;organic; 6893-02-3;T2877 ;Aldrich
+4,4'-diamino-3,3'-dimethyl-2,2'-dinitrobiphenyl;C14H14N4O4;CC1=C(C=C(C(=C1)C2=CC(=C(C=C2[N+](=O)[O-])N)C)[N+](=O)[O-])N;organic;69938-57-4;S648175;Aldrich
+Benzidine-3-sulfonic acid;C12H12N2O3S;C1=CC(=CC=C1C2=CC(=C(C=C2)N)S(=O)(=O)O)N;organic;2051-89-0;S678945;Aldrich
+2-nitrobenzidine;C12H11N3O2;C1=CC(=CC=C1C2=C(C=C(C=C2)N)[N+](=O)[O-])N;organic;2243-78-9;S653241;Aldrich
+2,2'-dimethylbenzidine hydrochloride;C14H17ClN2;CC1=C(C=CC(=C1)N)C2=C(C=C(C=C2)N)C.Cl;organic;96196-27-9;;
+Caffeine;C8H10N4O2;CN1C=NC2=C1C(=O)N(C(=O)N2C)C;organic;58-08-2;C0750 ;Aldrich
+Anthracene;C14H10;C1=CC=C2C=C3C=CC=CC3=CC2=C1;organic;120-12-7;31581;Aldrich
+Aniline;C6H5NH2;C1=CC=C(C=C1)N;organic;62-53-3;132934;Aldrich
+Glycine;C2H5NO2;C(C(=O)O)N;organic;56-40-6;G8898 ;Aldrich
+Terephtalic acid;C8H6O4;C1=CC(=CC=C1C(=O)O)C(=O)O;organic;100-21-0;185361;Aldrich
+Disodium succinate;C4H4Na2O4;C(CC(=O)[O-])C(=O)[O-].[Na+].[Na+];organic salt;150-90-3;W327700 ;Aldrich
+Cyanuric acid;C3H3N3O3;C1(=O)NC(=O)NC(=O)N1;organic;108-80-5;185809;Aldrich
+1,8-Dihydroxyanthraquinone;C14H8O4;C1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=CC=C3O;organic;117-10-2;D108103 ;Aldrich
+8-hydroxy-5-quinolinesulfonic acid hydrate;C9H9NO5S;C1=CC2=C(C=CC(=C2N=C1)O)S(=O)(=O)O.O;organic;207386-92-3;H58757 ;Aldrich
+Trichloroacetic acid;C2HCl3O2;C(=O)(C(Cl)(Cl)Cl)O;organic;76-03-9;T9159;Aldrich
+n-phenylurea;C7H8N2O;C1=CC=C(C=C1)NC(=O)N;organic;64-10-8;P36959 ;Aldrich
+5,7-diiodo-8-hydroxyquinoline;C9H5I2NO;C1=CC2=C(C(=C(C=C2I)I)O)N=C1;organic;83-73-8;D123609;Aldrich
+L-Lysine;C6H14N2O2;C(CCN)CC(C(=O)O)N;organic;56-87-1;62840;Aldrich
+Guanine;C5H5N5O;C1=NC2=C(N1)C(=O)N=C(N2)N;organic;73-40-5;G11950;Aldrich
+L-serine;C3H7NO3;C(C(C(=O)O)N)O;organic;56-45-1;84959;Aldrich
+L-Alanine;C3H7NO2;CC(C(=O)O)N;organic;56-41-7;A7627 ;Aldrich
+L-Leucine;C6H13NO2;CC(C)CC(C(=O)O)N;organic;61-90-5;L8000 ;Aldrich
+L-Valine;C5H11NO2;CC(C)C(C(=O)O)N;organic;72-18-4;V0500 ;Aldrich
+L-Glutamine;C5H10N2O3;C(CC(=O)N)C(C(=O)O)N;organic;56-85-9;G3126 ;Aldrich
+DL-Isoleucine;C6H13NO2;CCC(C)C(C(=O)O)N;organic;443-79-8;298689;Aldrich
+L-Tyrosine;C9H11NO3;C1=CC(=CC=C1CC(C(=O)O)N)O;organic;60-18-4;T3754;Aldrich
+L-Arginine;C6H14N4O2;C(CC(C(=O)O)N)CN=C(N)N;organic;74-79-3;A5006;Aldrich
+L-Asparagine;C4H8N2O3;C(C(C(=O)O)N)C(=O)N;organic;70-47-3;A0884 ;Aldrich
+L-Glutamic acid;C5H9NO4;C(CC(=O)O)C(C(=O)O)N;organic;56-86-0;G1251 ;Aldrich
+L-Tryptophan;C11H12N2O2;C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N;organic;73-22-3;T0254;Aldrich
+L-Proline; C5H9NO2;C1CC(NC1)C(=O)O;organic;147-85-3;P0380 ;Aldrich
+L-Threonine;C4H9NO3;CC(C(C(=O)O)N)O;organic;72-19-5;T8625 ;Aldrich
+L-Aspartic Acid;C4H7NO4;C(C(C(=O)O)N)C(=O)O;organic;56-84-8;A9256 ;Aldrich
+DL-Histidine;C6H9N3O2;C1=C(NC=N1)CC(C(=O)O)N;organic;4998-57-6;H7750 ;Aldrich
+L-Phenylalanine;C9H11NO2;C1=CC=C(C=C1)CC(C(=O)O)N;organic;63-91-2;P2126;Aldrich
+D-Alanine;C3H7NO2;CC(C(=O)O)N;organic;338-69-2;A7377 ;Aldrich
+L-Isoleucine;C6H13NO2;CCC(C)C(C(=O)O)N;organic;73-32-5;I2752 ;Aldrich
+L-Methionine;C5H11NO2S;CSCCC(C(=O)O)N;organic;63-68-3;M9625 ;Aldrich
+DL-Tyrosine;C9H11NO3;C1=CC(=CC=C1CC(C(=O)O)N)O;organic;556-03-6;145726;Aldrich
+L-Cysteine;C3H7NO2S;C(C(C(=O)O)N)S;organic;52-90-4;168149;Aldrich
+DL-Aspartic Acid;C4H7NO4;C(C(C(=O)O)N)C(=O)O;organic;617-45-8;A9006;Aldrich
+D-Tryptophan;C11H12N2O2;C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N;organic;153-94-6;T9753;Aldrich
+DL-Glutamic acid monohydrate;C5H11NO5;C(CC(=O)O)C(C(=O)O)N.O;organic;19285-83-7;G1126 ;Aldrich
+2-amino-5-nitropyrimidine;C4H4N4O2;C1=C(C=NC(=N1)N)[N+](=O)[O-];organic;3073-77-6;A70836;Aldrich
+Ethyl 4-aminobenzoate;C9H11NO2;CCOC(=O)C1=CC=C(C=C1)N;organic;94-09-7;112909;Aldrich
+Maleic hydrazide;C4H4N2O2;C1=CC(=O)NNC1=O;organic;123-33-1;D119806;Aldrich
+Theophylline;C7H8N4O2;CN1C2=C(C(=O)N(C1=O)C)NC=N2;organic;58-55-9;T1633;Aldrich
+4'-hydroxyacetophenone;C8H8O2;CC(=O)C1=CC=C(C=C1)O;organic;99-93-4;278564;Aldrich
+4-Hydroxybenzaldehyde;C7H6O2;C1=CC(=CC=C1C=O)O;organic;123-08-0;144088;Aldrich
+Isoniazid;C6H7N3O;C1=CN=CC=C1C(=O)NN;organic;54-85-3;I3377;Aldrich
+Isonicotinic acid;C6H5NO2;C1=CN=CC=C1C(=O)O;organic;55-22-1;I17508;Aldrich
+Nicotinic acid;C6H5NO2;C1=CC(=CN=C1)C(=O)O;organic;59-67-6;N4126;Aldrich
+2-Picolinic acid;C6H5NO2;C1=CC=NC(=C1)C(=O)O;organic;98-98-6;P42800;Aldrich
+2,4 -quinolinediol;C9H7NO2;C1=CC=C2C(=C1)C(=CC(=O)N2)O;organic;86-95-3;Q1336;Aldrich
+Glutaric acid;C5H8O4;C(CC(=O)O)CC(=O)O;organic;110-94-1;G3407;Aldrich
+4,4'-dipyridyl;C10H8N2;C1=CN=CC=C1C2=CC=NC=C2;organic;553-26-4;289426;Aldrich
+3-hydroxytyramine hydrochloride;C8H12ClNO2;C1=CC(=C(C=C1CCN)O)O.Cl;organic;62-31-7;H8502;Aldrich
+2-ethoxybenzamide;C9H11NO2;CCOC1=CC=CC=C1C(=O)N;organic;938-73-8;E4402;Aldrich
+Trifluoromethanesulfonic anhydride;C2F6O5S2;C(F)(F)(F)S(=O)(=O)OS(=O)(=O)C(F)(F)F;organic;358-23-6;176176;Aldrich
+5-amino-8-hydroxyquinoline dihydrochloride;C9H10Cl2N2O;C1=CC2=C(C=CC(=C2N=C1)O)N.Cl.Cl;organic;21302-43-2;305529;Aldrich
+6-hydroxy-3,4-dihydroquinazolone;C8H6N2O2;C1=CC2=C(C=C1O)C(=O)N=CN2;organic;16064-10-1;CDS004420;Aldrich
+7,8-dihydroxy-4methylcoumarin;C10H8O4;CC1=CC(=O)OC2=C1C=CC(=C2O)O;organic;2107-77-9;630748;Aldrich
+1-methylthymine;C6H8N2O2;CC1=CN(C(=O)NC1=O)C;organic;4160-72-9;M7636;Aldrich
+Lumazine;C6H4N4O2;C1=CN=C2C(=N1)C(=O)NC(=O)N2;organic;487-21-8;L06732 ;Alfa aesar
+6-(Trifluoromethyl)uracil;C5H3F3N2O2;C1=C(NC(=O)NC1=O)C(F)(F)F;organic;672-45-7;546011;Aldrich
+Pyrazole;C3H4N2;C1=CNN=C1;organic;288-13-1;P56607;Aldrich
+9-methyladenine;C6H7N5;CN1C=NC2=C1N=CN=C2N;organic;700-00-5;547328;Aldrich
+1-isoquinolinemethanol;C10H9NO;C1=CC=C2C(=C1)C=CN=C2CO;organic;27311-63-3;;
+3-(aminocarbonyl)-2-pyrazinecarboxylic acid;C6H5N3O3;C1=CN=C(C(=N1)C(=O)N)C(=O)O;organic;67367-37-7;P1156;TCI chemicals
+2,3-dihydroxybenzoic acid;C7H6O4;C1=CC(=C(C(=C1)O)O)C(=O)O;organic;303-38-8;126209;Aldrich
+2,4-dihydroxybenzoic acid;C7H6O4;C1=CC(=C(C=C1O)O)C(=O)O;organic;89-86-1;D109401;Aldrich
+2,5- dihydroxybenzoic acid;C7H6O4;C1=CC(=C(C=C1O)C(=O)O)O;organic;490-79-9;149357;Aldrich
+3,4-dihydroxybenzoic acid;C7H6O4;C1=CC(=C(C=C1C(=O)O)O)O;organic;99-50-3;37580;Aldrich
+3,5-dihydroxybenzoic acid;C7H6O4;C1=C(C=C(C=C1O)O)C(=O)O;organic;99-10-5;D110000;Aldrich
+Isonicotinamide;C6H6N2O;C1=CN=CC=C1C(=O)N;organic;1453-82-3;I17451;Aldrich
+Picolinamide;C6H6N2O;C1=CC=NC(=C1)C(=O)N;organic;1452-77-3;104051;Aldrich
+4-Nitroaniline;C6H6N2O2;C1=CC(=CC=C1N)[N+](=O)[O-];organic;100-01-06;185310;Aldrich
+Nicotinamide;"
+C6H6N2O";C1=CC(=CN=C1)C(=O)N;organic;98-92-0;72340;Aldrich
+4-tert-Butylcalix[6]arene;C66H84O6;CC(C)(C)C1=CC2=C(C(=C1)CC3=CC(=CC(=C3O)CC4=CC(=CC(=C4O)CC5=CC(=CC(=C5O)CC6=C(C(=CC(=C6)C(C)(C)C)CC7=C(C(=CC(=C7)C(C)(C)C)C2)O)O)C(C)(C)C)C(C)(C)C)C(C)(C)C)O;organic;78092-53-2;363693;Aldrich
+Caffeic acid;C9H8O4;C1=CC(=C(C=C1C=CC(=O)O)O)O;organic;331-39-5;C0625;Aldrich
+3,4-Dihydroxy-L-phenylalanine;C9H11NO4;C1=CC(=C(C=C1CC(C(=O)O)N)O)O;organic;59-92-7;D9628;Aldrich
+4-tert-Butylcalix[8]arene;C88H112O8;CC(C)(C)C1=CC2=C(C(=C1)CC3=CC(=CC(=C3O)CC4=CC(=CC(=C4O)CC5=CC(=CC(=C5O)CC6=CC(=CC(=C6O)CC7=C(C(=CC(=C7)C(C)(C)C)CC8=C(C(=CC(=C8)C(C)(C)C)CC9=C(C(=CC(=C9)C(C)(C)C)C2)O)O)O)C(C)(C)C)C(C)(C)C)C(C)(C)C)C(C)(C)C)O;organic;68971-82-4;347531;Aldrich
+1-(2,3-Dichlorophenyl)piperazine hydrochloride;C10H13Cl3N2;C1CN(CCN1)C2=C(C(=CC=C2)Cl)Cl.Cl;organic;119532-26-2;679135;Aldrich
+Methyl acetate;CH3COOCH3;CC(=O)OC;organic;79-20-9;W267600 ;Aldrich
+Indole-3-carbinol;C9H9NO;C1=CC=C2C(=C1)C(=CN2)CO;organic;700-06-1;I7256;Aldrich
+DL-3,4-Dihydroxyphenyl glycol;C8H10O4;C1=CC(=C(C=C1C(CO)O)O)O;organic;28822-73-3;D9753;Aldrich
+Pirogalol;C6H6O3;C1=CC(=C(C(=C1)O)O)O;organic;87-66-1;P0381;Aldrich
+1,2-Dihydroxybenzene;C6H6O2;C1=CC=C(C(=C1)O)O;organic;120-80-9;135011;Aldrich
+1-(2-Pyridyl)piperazine;C9H13N3;C1CN(CCN1)C2=CC=CC=N2;organic;34803-66-2;408166;Aldrich
+Cucurbit[6]uril hydrate;C36H36N24O12;C1N2C3C4N(C2=O)CN5C6C7N(C5=O)CN8C9C2N(C8=O)CN5C8C%10N(C5=O)CN5C%11C%12N(C5=O)CN5C%13C(N1C5=O)N1CN3C(=O)N4CN6C(=O)N7CN9C(=O)N2CN8C(=O)N%10CN%11C(=O)N%12CN%13C1=O;organic;80262-44-8;94544;Aldrich
+7-Methylindole;C9H9N;CC1=CC=CC2=C1NC=C2;organic;933-67-5;M51490;Aldrich
+5-Nitroindol;C8H6N2O2;C1=CC2=C(C=CN2)C=C1[N+](=O)[O-];organic;6146-52-7;N17602;Aldrich
+5-Aminoindol;C8H8N2;C1=CC2=C(C=CN2)C=C1N;organic;5192-03-0;A59654;Aldrich
+4-Methylcatechol;C7H8O2;CC1=CC(=C(C=C1)O)O;organic;452-86-8;M34200;Aldrich
+3,4-Dihydroxyphenylacetic acid;C8H8O4;C1=CC(=C(C=C1CC(=O)O)O)O;organic;102-32-9;850217;Aldrich
+1-Phenylpiperazine;C10H14N2;C1CN(CCN1)C2=CC=CC=C2;organic;92-54-6;P30004;Aldrich
+1H-Indole-2-methanol;C9H9NO;C1=CC=C2C(=C1)C=C(N2)CO;organic;24621-70-3;687227;Aldrich
+1-(3-fluorophenyl)piperazine;C10H13FN2;C1CN(CCN1)C2=CC(=CC=C2)F;organic;3801-89-6;CDS010598;Aldrich
+5-bromo-2-(piperazine-1-yl)pyrimidine;C8H11BrN4;C1CN(CCN1)C2=NC=C(C=N2)Br;organic;99931-82-5;CDS003264 ;Aldrich
+4-Cyanoindole;C9H6N2;C1=CC(=C2C=CNC2=C1)C#N;organic;16136-52-0;645532;Aldrich
+4,5-dihydroxy-1,3-benzenedisulfonic acid;C6H6Na2O9S2;C1=C(C=C(C(=C1S(=O)(=O)[O-])O)O)S(=O)(=O)[O-].O.[Na+].[Na+];organic;270573-71-2;172553;Aldrich
