@@ -1,0 +1,68 @@
+version: '3.8'
+
+services:
+  # MySQL Database
+  db:
+    image: mysql:8.0
+    container_name: crystaldb-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-rootpassword}
+      MYSQL_DATABASE: ${DATABASE_NAME:-crystaldb}
+      MYSQL_USER: ${DATABASE_USER:-crystaldb_user}
+      MYSQL_PASSWORD: ${DATABASE_PASSWORD:-crystaldb_password}
+    ports:
+      - "${DATABASE_PORT:-3306}:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./scripts/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${MYSQL_ROOT_PASSWORD:-rootpassword}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - crystaldb-network
+
+  # CrystalDB API
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: crystaldb-api
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_HOST: db
+      DATABASE_PORT: 3306
+      DATABASE_USER: ${DATABASE_USER:-crystaldb_user}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD:-crystaldb_password}
+      DATABASE_NAME: ${DATABASE_NAME:-crystaldb}
+      API_HOST: 0.0.0.0
+      API_PORT: 8000
+      API_WORKERS: ${API_WORKERS:-4}
+      ENVIRONMENT: ${ENVIRONMENT:-production}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    ports:
+      - "${API_PORT:-8000}:8000"
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data:ro
+    networks:
+      - crystaldb-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+volumes:
+  mysql_data:
+    driver: local
+
+networks:
+  crystaldb-network:
+    driver: bridge
