@@ -1,7 +1,11 @@
 """FastAPI application factory."""
 
+from pathlib import Path
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 
 from ..core.config import get_settings
 from ..core.logging import setup_logging, get_logger
@@ -40,13 +44,22 @@ def create_app() -> FastAPI:
     app.include_router(solvents.router, prefix="/api/v1/solvents", tags=["Solvents"])
     app.include_router(experiments.router, prefix="/api/v1/experiments", tags=["Experiments"])
 
+    # Mount static files
+    static_dir = Path(__file__).parent.parent / "static"
+    if static_dir.exists():
+        app.mount("/static", StaticFiles(directory=str(static_dir)), name="static")
+
     @app.get("/")
-    async def root() -> dict[str, str]:
-        """Root endpoint."""
+    async def root():
+        """Serve the web interface."""
+        index_file = static_dir / "index.html"
+        if index_file.exists():
+            return FileResponse(index_file)
         return {
             "name": "CrystalDB API",
             "version": "2.0.0",
             "docs": "/docs",
+            "web": "/",
         }
 
     @app.get("/health")

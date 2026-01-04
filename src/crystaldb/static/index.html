@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrystalDB - Crystallography Data Management</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔬 CrystalDB v2.0</h1>
+            <p class="subtitle">Crystallography Experiment and Data Collection System</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-button active" data-tab="materials">📦 Materials</button>
+            <button class="tab-button" data-tab="solvents">🧪 Solvents</button>
+            <button class="tab-button" data-tab="experiments">🔬 Experiments</button>
+            <button class="tab-button" data-tab="stats">📊 Statistics</button>
+        </nav>
+
+        <!-- Materials Tab -->
+        <div id="materials" class="tab-content active">
+            <div class="controls">
+                <input type="text" id="materialSearch" placeholder="Search materials by name or CAS number...">
+                <button onclick="searchMaterials()">Search</button>
+                <button onclick="loadMaterials()">Show All</button>
+            </div>
+            <div class="table-container">
+                <table id="materialsTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Compound Name</th>
+                            <th>Formula</th>
+                            <th>Type</th>
+                            <th>CAS Number</th>
+                            <th>Supplier</th>
+                        </tr>
+                    </thead>
+                    <tbody id="materialsBody">
+                        <tr><td colspan="6" class="loading">Loading...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pagination">
+                <button id="prevMaterials" onclick="prevPageMaterials()">← Previous</button>
+                <span id="materialPageInfo">Page 1</span>
+                <button id="nextMaterials" onclick="nextPageMaterials()">Next →</button>
+            </div>
+        </div>
+
+        <!-- Solvents Tab -->
+        <div id="solvents" class="tab-content">
+            <div class="controls">
+                <input type="text" id="solventSearch" placeholder="Search solvents by name...">
+                <button onclick="searchSolvents()">Search</button>
+                <button onclick="loadSolvents()">Show All</button>
+            </div>
+            <div class="table-container">
+                <table id="solventsTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Solvent Name</th>
+                            <th>Formula</th>
+                            <th>CAS Number</th>
+                            <th>Product Number</th>
+                            <th>Supplier</th>
+                        </tr>
+                    </thead>
+                    <tbody id="solventsBody">
+                        <tr><td colspan="6" class="loading">Loading...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pagination">
+                <button id="prevSolvents" onclick="prevPageSolvents()">← Previous</button>
+                <span id="solventPageInfo">Page 1</span>
+                <button id="nextSolvents" onclick="nextPageSolvents()">Next →</button>
+            </div>
+        </div>
+
+        <!-- Experiments Tab -->
+        <div id="experiments" class="tab-content">
+            <div class="info-box">
+                <h3>📋 Experiments</h3>
+                <p>No experiments recorded yet. Use the API to create experiments.</p>
+                <p>Total Experiments: <span id="experimentCount">0</span></p>
+            </div>
+        </div>
+
+        <!-- Statistics Tab -->
+        <div id="stats" class="tab-content">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>📦 Materials</h3>
+                    <div class="stat-number" id="totalMaterials">0</div>
+                    <p>Total Compounds</p>
+                </div>
+                <div class="stat-card">
+                    <h3>🧪 Solvents</h3>
+                    <div class="stat-number" id="totalSolvents">0</div>
+                    <p>Total Solvents</p>
+                </div>
+                <div class="stat-card">
+                    <h3>🔬 Experiments</h3>
+                    <div class="stat-number" id="totalExperiments">0</div>
+                    <p>Total Experiments</p>
+                </div>
+                <div class="stat-card">
+                    <h3>📊 API Status</h3>
+                    <div class="stat-number" id="apiStatus">✓</div>
+                    <p>System Healthy</p>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <h3>Material Types Distribution</h3>
+                <div id="materialTypesChart" class="chart">
+                    <div class="bar-chart" id="barChart"></div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>CrystalDB v2.0 - Modern Crystallography Data Management | <a href="/docs" target="_blank">API Documentation</a></p>
+        </footer>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
