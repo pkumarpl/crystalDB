@@ -15,16 +15,26 @@ from .base import Base
 logger = get_logger(__name__)
 settings = get_settings()
 
-# Create engine with connection pooling
-engine = create_engine(
-    settings.database_url,
-    poolclass=QueuePool,
-    pool_size=5,
-    max_overflow=10,
-    pool_pre_ping=True,  # Verify connections before using
-    pool_recycle=3600,  # Recycle connections after 1 hour
-    echo=settings.is_development,  # SQL logging in development
-)
+# Create engine with appropriate settings for database type
+is_sqlite = settings.database_url.startswith("sqlite")
+engine_kwargs = {
+    "echo": settings.is_development,  # SQL logging in development
+}
+
+# SQLite-specific settings
+if is_sqlite:
+    engine_kwargs["connect_args"] = {"check_same_thread": False}
+else:
+    # MySQL/PostgreSQL pooling settings
+    engine_kwargs.update({
+        "poolclass": QueuePool,
+        "pool_size": 5,
+        "max_overflow": 10,
+        "pool_pre_ping": True,
+        "pool_recycle": 3600,
+    })
+
+engine = create_engine(settings.database_url, **engine_kwargs)
 
 # Create session factory
 SessionLocal = sessionmaker(
@@ -37,9 +47,14 @@ SessionLocal = sessionmaker(
 @event.listens_for(Engine, "connect")
 def set_mysql_pragma(dbapi_conn: Any, connection_record: Any) -> None:
     """Set MySQL connection options."""
-    cursor = dbapi_conn.cursor()
-    cursor.execute("SET SESSION sql_mode='STRICT_TRANS_TABLES'")
-    cursor.close()
+    # Only set MySQL-specific options for MySQL databases
+    if not is_sqlite:
+        try:
+            cursor = dbapi_conn.cursor()
+            cursor.execute("SET SESSION sql_mode='STRICT_TRANS_TABLES'")
+            cursor.close()
+        except Exception:
+            pass  # Skip if not MySQL
 
 
 def init_db() -> None:

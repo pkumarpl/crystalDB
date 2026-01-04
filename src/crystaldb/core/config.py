@@ -18,6 +18,8 @@ class Settings(BaseSettings):
     )
 
     # Database Configuration
+    # If DATABASE_URL is set, it will be used directly. Otherwise, MySQL config is used.
+    database_url_env: str | None = Field(default=None, alias="database_url", description="Direct database URL")
     database_host: str = Field(default="localhost", description="Database host")
     database_port: int = Field(default=3306, description="Database port")
     database_user: str = Field(default="crystaldb_user", description="Database user")
@@ -62,6 +64,9 @@ class Settings(BaseSettings):
     @property
     def database_url(self) -> str:
         """Construct database URL."""
+        # Use direct DATABASE_URL if provided, otherwise construct MySQL URL
+        if self.database_url_env:
+            return self.database_url_env
         return (
             f"mysql+pymysql://{self.database_user}:{self.database_password}"
             f"@{self.database_host}:{self.database_port}/{self.database_name}"
